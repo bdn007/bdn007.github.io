@@ -7,7 +7,7 @@ tags: [typography]
 
 ---
 
-I found out that when adding even a line to the index.html. 
+I found out that when adding even a single line to the index.html. 
 
 ```html
   <p>testing</p>
