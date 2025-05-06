@@ -29,6 +29,6 @@ _And here is another screenshot from my desktop, notice some errors?_
 
 ### The Solution
 
-I found a workaround. Instead of adding html elements directly into the `index.html`, I created an `_includes/greeting.thml` file, then simply insert it into the `_layouts/home.thml` with `{ % include greeting.html % }.`
+I found a workaround. Instead of adding html elements directly into the `index.html`, I created an `_includes/greeting.html` file, then simply insert it into the `_layouts/home.html` using flow control `{ % include greeting.html % }.`
 
 So far, it hasn't broken the MathJax syntax yet, so I am hopeful.
