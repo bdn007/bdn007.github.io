@@ -35,6 +35,14 @@ image:
 
 Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
 
+## Subscript
+
+> This isn’t common, but some Markdown processors allow you to use subscript to position one or more characters slightly below the normal line of type. To create a subscript, use one tilde symbol (~) before and after the characters. Certainly, it **doesn't** work on Chirpy.
+{: .prompt-warning }
+
+> You've better use MathJax for subscript.
+{: .prompt-tip }
+
 ## Lists
 
 ### Ordered list
@@ -99,7 +107,7 @@ Moon
 
 ## Footnote
 
-Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
+Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2] and the first footnote[^fn-nth-3].
 
 ## Inline code
 
@@ -198,3 +206,4 @@ The image below will toggle dark/light mode based on theme preference, notice it
 
 [^footnote]: The footnote source
 [^fn-nth-2]: The 2nd footnote source
+[^fn-nth-3]: something
